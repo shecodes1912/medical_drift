@@ -1,0 +1,67 @@
+{
+    "exp2_false_alarm_rate_h0": 0.028,
+    "exp1_latency": {
+        "mild": {
+            "target": "CVC-ClinicDB (Mild)",
+            "mean_latency": 3.35,
+            "std_latency": 0.4769696007084729,
+            "miss_rate": 0.0
+        },
+        "hard": {
+            "target": "ETIS-LaribPolypDB (Hard)",
+            "mean_latency": 3.0,
+            "std_latency": 0.0,
+            "miss_rate": 0.0
+        },
+        "cross_modality": {
+            "target": "MoNuSeg (Cross-Modality)",
+            "mean_latency": 3.0,
+            "std_latency": 0.0,
+            "miss_rate": 0.0
+        }
+    },
+    "exp3_cal_sweep": {
+        "10": {
+            "mean_latency": 6.0,
+            "std_latency": 0.0,
+            "miss_rate": 0.0
+        },
+        "25": {
+            "mean_latency": 4.0,
+            "std_latency": 0.0,
+            "miss_rate": 0.0
+        },
+        "50": {
+            "mean_latency": 3.0,
+            "std_latency": 0.0,
+            "miss_rate": 0.0
+        },
+        "100": {
+            "mean_latency": 2.02,
+            "std_latency": 0.13999999999999999,
+            "miss_rate": 0.0
+        },
+        "200": {
+            "mean_latency": 2.0,
+            "std_latency": 0.0,
+            "miss_rate": 0.0
+        }
+    },
+    "exp4_score_ablation": {
+        "S1": {
+            "mean_latency": 3.0,
+            "std_latency": 0.0,
+            "miss_rate": 0.0
+        },
+        "S2": {
+            "mean_latency": 3.0,
+            "std_latency": 0.0,
+            "miss_rate": 0.0
+        },
+        "S3": {
+            "mean_latency": 3.02,
+            "std_latency": 0.13999999999999999,
+            "miss_rate": 0.0
+        }
+    }
+}

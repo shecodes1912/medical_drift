@@ -1,0 +1,23 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data directories (do not upload raw dataset images/masks to GitHub)
+data/
+
+# Results and outputs (optional: keep if you want to share benchmark JSON)
+# results/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
